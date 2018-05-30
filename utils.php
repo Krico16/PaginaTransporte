@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<?php 
+<?php
 function crearbanner(){
 echo "<div class='header'>
         <img src='https://cdn.discordapp.com/attachments/439961746157993984/450355346687393793/head1.jpg' class='banner'>
@@ -127,5 +126,3 @@ function noresults(){
    </div>
           ";
 }
-
->>>>>>> 68e122f0db5d8b1dea16a300440760ab6d87f47c
