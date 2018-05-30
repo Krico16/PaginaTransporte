@@ -1,0 +1,47 @@
+/*input[type="text"]{
+    border: none;
+    border-bottom: 1px dashed #222222; 
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+*/
+
+body {
+    background-color: #bad3fc;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;
+    */
+}
+
+.tabla {
+    background-color: #effcba;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text] {
+    height: 17px;
+    border: none;
+    width: calc(100% - 2px);
+    margin-left: 1px;
+    box-shadow: -8px 10px 0px -7px #e25353, 8px 10px 0px -7px #e25353;
+    -webkit-transition: box-shadow 0.6s;
+    transition: box-shadow 0.6s;
+    background: transparent;
+
+}
+
+input[type=text]:focus {
+    outline: none;
+    box-shadow: -8px 10px 0px -7px #4EA6EA, 8px 10px 0px -7px #4EA6EA;
+}

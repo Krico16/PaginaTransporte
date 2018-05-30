@@ -1,0 +1,24 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: #6c7ae0;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+.body{
+    background-color: #aad1ef;
+}
+table tr th{
+    text-align: center;
+}
+table tr td{
+    background-color: #93bbf2;
+    text-align: center;
+}
